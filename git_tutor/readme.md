@@ -1,5 +1,7 @@
 # git入门
 
+> damo
+> 2020-06-17
 > 以下安装以win7-64为例，其他版本请选择对应安装包。
 
 ## 第一次创建仓库
@@ -59,6 +61,11 @@ $ git clone git@github.com:damo-wang/xd0615.git
 git add *
 git commit -m "第n次作业提交，你的姓名学号"
 git push
+```
+> 第一次git commit 命令时，会要求设置user.email和user.name，使用如下两个命令设置依次即可。
+```bash
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
 ```
 5. 完成。
 
