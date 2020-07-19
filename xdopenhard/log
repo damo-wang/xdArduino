@@ -1,0 +1,447 @@
+python3 main.py 
+190陈欣:git@github.com:Xin-chenn-890/xd0615.git OK
+ERROR:root:Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:Xin-chenn-890/xd0615.git 陈欣
+  stderr: 'fatal: destination path '陈欣' already exists and is not an empty directory.
+'
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    repo=git.Repo.clone_from(url=row['仓库地址'],to_path=row['姓名'])
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 1019, in clone_from
+    return cls._clone(git, url, to_path, GitCmdObjectDB, progress, multi_options, **kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 960, in _clone
+    finalize_process(proc, stderr=stderr)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/util.py", line 328, in finalize_process
+    proc.wait(**kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/cmd.py", line 408, in wait
+    raise GitCommandError(self.args, status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:Xin-chenn-890/xd0615.git 陈欣
+  stderr: 'fatal: destination path '陈欣' already exists and is not an empty directory.
+'
+183韩雨静:git@github.com:hefabianliang/xd0615.git OK
+ERROR:root:Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:hefabianliang/xd0615.git 韩雨静
+  stderr: 'fatal: destination path '韩雨静' already exists and is not an empty directory.
+'
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    repo=git.Repo.clone_from(url=row['仓库地址'],to_path=row['姓名'])
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 1019, in clone_from
+    return cls._clone(git, url, to_path, GitCmdObjectDB, progress, multi_options, **kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 960, in _clone
+    finalize_process(proc, stderr=stderr)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/util.py", line 328, in finalize_process
+    proc.wait(**kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/cmd.py", line 408, in wait
+    raise GitCommandError(self.args, status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:hefabianliang/xd0615.git 韩雨静
+  stderr: 'fatal: destination path '韩雨静' already exists and is not an empty directory.
+'
+179王睿:git@github.com:REALTA-nua/xd0615.git OK
+ERROR:root:Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:REALTA-nua/xd0615.git 王睿
+  stderr: 'fatal: destination path '王睿' already exists and is not an empty directory.
+'
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    repo=git.Repo.clone_from(url=row['仓库地址'],to_path=row['姓名'])
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 1019, in clone_from
+    return cls._clone(git, url, to_path, GitCmdObjectDB, progress, multi_options, **kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 960, in _clone
+    finalize_process(proc, stderr=stderr)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/util.py", line 328, in finalize_process
+    proc.wait(**kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/cmd.py", line 408, in wait
+    raise GitCommandError(self.args, status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:REALTA-nua/xd0615.git 王睿
+  stderr: 'fatal: destination path '王睿' already exists and is not an empty directory.
+'
+177鲍元哲:git@github.com:ss2000101/xd0615.git OK
+ERROR:root:Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:ss2000101/xd0615.git 鲍元哲
+  stderr: 'fatal: destination path '鲍元哲' already exists and is not an empty directory.
+'
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    repo=git.Repo.clone_from(url=row['仓库地址'],to_path=row['姓名'])
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 1019, in clone_from
+    return cls._clone(git, url, to_path, GitCmdObjectDB, progress, multi_options, **kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 960, in _clone
+    finalize_process(proc, stderr=stderr)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/util.py", line 328, in finalize_process
+    proc.wait(**kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/cmd.py", line 408, in wait
+    raise GitCommandError(self.args, status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:ss2000101/xd0615.git 鲍元哲
+  stderr: 'fatal: destination path '鲍元哲' already exists and is not an empty directory.
+'
+175赵佳宁:github.com:z1005/xd0615.git
+174HorizonChaser:git@github.com:HorizonChaser/xd0615.git OK
+173甘振川:git@github.com:Fakejoy/xd0615.git OK
+169畅鑫:https://github.com/changxin-4621/xd0615.git
+168王超越:git@github.com:cy66666/xd0615.git OK
+166孙天海:git@github.com:xhjly/xd0615.git OK
+165刘子扬:git@github.com:ZiyangLiu061/xd0615.git OK
+164王柯捷:git@github.com:JACKIKI666/xd0615.git OK
+161云田:git@github.com:Black-Yun/xd0615.git OK
+159王新宇:git@github.com:wxy1215/xd0615.git OK
+156李源壑:git@github.com:damo-li/xd0615.git OK
+155宋凯:git@github.com:IWDG-Kai/xd0615.git OK
+154秦正全:git@github.com:ChylinSta/xd0615.git OK
+153孔毅铎:git@github.com:Kyd-0801/xd0615.git OK
+151张银龙:git@github.com:MrZhang-12138/xd0615.git OK
+150陈太华:https://github.com/CTH-29/xd0615
+149郭龙:git@github.com:guolong678/xd0615.git OK
+147李鑫滔:git@github.com:lixintaozz/xd0615.git OK
+145黄子文:git@github.com:green-bacon/xd0615.git OK
+144宜腾:git@github.com:Yiteng1025/xd0615.git OK
+143宋浩宇:git@github.com:Error-LinuxKernelCrashed/xd0615.git OK
+142张自源:git@github.com:githubxufeng-z/xd0615.git OK
+ERROR:root:Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:githubxufeng-z/xd0615.git 张自源
+  stderr: 'Cloning into '张自源'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+'
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    repo=git.Repo.clone_from(url=row['仓库地址'],to_path=row['姓名'])
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 1019, in clone_from
+    return cls._clone(git, url, to_path, GitCmdObjectDB, progress, multi_options, **kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 960, in _clone
+    finalize_process(proc, stderr=stderr)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/util.py", line 328, in finalize_process
+    proc.wait(**kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/cmd.py", line 408, in wait
+    raise GitCommandError(self.args, status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:githubxufeng-z/xd0615.git 张自源
+  stderr: 'Cloning into '张自源'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+'
+140韩毅:git@github.com:hanyi1125/xd0615.git OK
+139余松炎:git@github.com:abec9120/xd0615.git OK
+138莫云轲:git@github.com:AlexykMo/xd0615.git OK
+137全宣羽:git@github.com:qxyo/xd0615.git OK
+136莫慧禄:git@github.com:cfhcx/xd0615.git OK
+135马锦程:git@github.com:MARINGTIN/xd0615.git OK
+134贺延础:git@github.com:ddzhanshou/xd0615.git OK
+133张少波:git@github.com:zhang-zhaobo/xd0615.git OK
+132张琪:git@github.com:zhangqi712/xd0615.git OK
+131李晨曦:git@github.com:LCX20010525/xd0615.git OK
+130杨士龙:Yang-isLong/xd0615.git
+129赵延东:git@github.com:ddxiaodong/xd0615.git OK
+128曹伊茉:git@github.com:xxxx-c/xd0615.git OK
+127徐朗森:git@github.com:githubRonsonX-721/xd0615.git OK
+ERROR:root:Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:githubRonsonX-721/xd0615.git 徐朗森
+  stderr: 'Cloning into '徐朗森'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+'
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    repo=git.Repo.clone_from(url=row['仓库地址'],to_path=row['姓名'])
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 1019, in clone_from
+    return cls._clone(git, url, to_path, GitCmdObjectDB, progress, multi_options, **kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 960, in _clone
+    finalize_process(proc, stderr=stderr)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/util.py", line 328, in finalize_process
+    proc.wait(**kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/cmd.py", line 408, in wait
+    raise GitCommandError(self.args, status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:githubRonsonX-721/xd0615.git 徐朗森
+  stderr: 'Cloning into '徐朗森'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+'
+126张旭:git@github.com:SPIRITMAN21/mynote.git OK
+125杨林中:git@github.com:gitylz9969/xd0615.git OK
+ERROR:root:Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:gitylz9969/xd0615.git 杨林中
+  stderr: 'Cloning into '杨林中'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+'
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    repo=git.Repo.clone_from(url=row['仓库地址'],to_path=row['姓名'])
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 1019, in clone_from
+    return cls._clone(git, url, to_path, GitCmdObjectDB, progress, multi_options, **kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 960, in _clone
+    finalize_process(proc, stderr=stderr)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/util.py", line 328, in finalize_process
+    proc.wait(**kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/cmd.py", line 408, in wait
+    raise GitCommandError(self.args, status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:gitylz9969/xd0615.git 杨林中
+  stderr: 'Cloning into '杨林中'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+'
+124王乐乐:https://github.com/Lumenyl/xd0615.git
+123应忠林:git@github.com:zhonglin-ying/xd0615.git OK
+122胡正轩:git@github.com:xdu-zhazhaxuan/xd0615.git OK
+119李方兴:git@github.com:LiFX135/xd0615.git OK
+118张丛笑:https://github.com/Coxel-Z/xd0615.git
+117马静文:git@github.com:VivianJingwen/xd0615.git OK
+115张瑞麒:git@github.com:Heatedapple/xd0615.git OK
+114陈裕衡:git@github.com：Alioth0421/xd0615.git OK
+ERROR:root:Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com：Alioth0421/xd0615.git 陈裕衡
+  stderr: 'fatal: repository 'git@github.com：Alioth0421/xd0615.git' does not exist
+'
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    repo=git.Repo.clone_from(url=row['仓库地址'],to_path=row['姓名'])
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 1019, in clone_from
+    return cls._clone(git, url, to_path, GitCmdObjectDB, progress, multi_options, **kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 960, in _clone
+    finalize_process(proc, stderr=stderr)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/util.py", line 328, in finalize_process
+    proc.wait(**kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/cmd.py", line 408, in wait
+    raise GitCommandError(self.args, status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com：Alioth0421/xd0615.git 陈裕衡
+  stderr: 'fatal: repository 'git@github.com：Alioth0421/xd0615.git' does not exist
+'
+113谢其峰:git@github.com:fan-forme/xd0615.git OK
+112赵典:git@github.com:number10032/xd0615.git OK
+111祝王锋:git@github.com:Always-frank/xd0615.git OK
+110肖朝燊:git@github.com:chaoshenxiao/xd0615.git OK
+109卞凌风:git@github.com:shengli-sube/xd0615.git OK
+108李维碟:git@github.com:mars-li04/xd0615.git OK
+107张桓:git@github.com:huan-z/xd0615.git OK
+106夏乐贤:git@github.com:xdxialexian/xd0615.git OK
+105姚诗懿:git@github.com:YSYlearing/xd0615.git OK
+104赵嘉禾:git@github.com:Signal-H/xd0615.git OK
+103苏启航:git@github.com:yoy-hang/xd0615.git OK
+102卫俊垚:git@github.com:Junyao-Wei/xd0615.git OK
+101尚泽源:git@github.com:Szy1132577995/xd0615.git OK
+100王念童:git@github.com:wntmaster/xd0615.git OK
+99梁强强:git@github.com:demo-lj-2266/xd0615.git OK
+98闫振兴:git@github.com:whisper-y/xd0615.git OK
+97林超:git@github.com:linchao-abc/xd0615.git OK
+96张祥祥:git@github.com:sufferfrom/xd0615.git OK
+95秦江:git@github.com:JiangQin-bot/xd0615.git OK
+93赵雪荣:git@github.com:Echo1825399/xd0615.git OK
+90朱国强:git@github.com:Zhu-Guoqiang/xd0615.git OK
+89马腾:git@github.com:mateng-2580/xd0615.git OK
+87陈纪璋:git@github.com:chenjizhang/xd0615.git OK
+86蒋志龙:git@github.com:drdr-jiang/xd0615.git OK
+85牛昊天:git@github.com:CREATOR123456/xd0615.git OK
+84朱嘉一:git@github.com:zhujiayi123/xd0615.git OK
+83王国栋:git@github.com:WGD123/xd0615.git OK
+82陶杨:git@github.com:JRDStar/xd0615.git OK
+81于浩楠:git@github.com:nabieva-y/xd0615.git OK
+80蓝宏健:git@github.com:AyueGod/xd0615.git OK
+79杜昌容:git@github.com:github924951009/xd0615.git OK
+ERROR:root:Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:github924951009/xd0615.git 杜昌容
+  stderr: 'Cloning into '杜昌容'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+'
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    repo=git.Repo.clone_from(url=row['仓库地址'],to_path=row['姓名'])
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 1019, in clone_from
+    return cls._clone(git, url, to_path, GitCmdObjectDB, progress, multi_options, **kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 960, in _clone
+    finalize_process(proc, stderr=stderr)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/util.py", line 328, in finalize_process
+    proc.wait(**kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/cmd.py", line 408, in wait
+    raise GitCommandError(self.args, status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:github924951009/xd0615.git 杜昌容
+  stderr: 'Cloning into '杜昌容'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+'
+78方阳:git@github.com:fangyang56/xd0615.git OK
+74刘航宇:git@github.com:coffee-ssr/xd0615.git OK
+72陈瑞涛:git@github.com:Ruitao-chen/xd0615.git OK
+70甘亦斌:git@github.com:yb214/xd0615.git OK
+69杨海昌:git@github.com:haichangyang/xd0615.git OK
+68秦培杰:git@github.com:helloqinpj/xd0615.git OK
+67张泽:git@github.com:feiyupian/xd0615.git OK
+66朱锐轩:git@github.com:RichardSherry/xd0615.git OK
+64李哲:git@github.com:AIGOUGE/xd0615.git OK
+63靳占全:git@github.com:XD-jin/xd0615.git OK
+62王照宇:git@github.com:WangZhaoyuDemo/xd0615.git OK
+61吕陆:git@github.com:ll0118/xd0615.git OK
+60陈鹏旭:git@github.com:Pengxv-Chen/xd0615.git OK
+58李玉菊:https://github.com/xd-liyuju/xd0615.git
+57廖灿:git@github.com:nzladwjafa/xd0615.git OK
+55马彤晖:git@github.com:C1AO010329/xd0615.git OK
+54余洋:git@github.com:sei-fish/xd0615.git OK
+52石竞捷:git@github.com:shijingjie/xd0615.git OK
+50曹思宇:git@github.com:caosiyu299/xd0615.git OK
+49李嘉禹:git@github.com:xdlijiayu/xd0615.git OK
+48杨佳琪:git@github.com:Glaring1/xd0615.git OK
+47刘源:git@github.com:LYliuyuan-LY/xd0615.git OK
+45王光洋:git@github.com:GY-wang/xd0615.git OK
+43赖驰原:git@github.com:laichiyuan/xd0615.git OK
+42王麟怡:git@github.com:ekkoWANG7/xd0615.git OK
+41肖畅:git@github.com:cxiao129/xd0615.git OK
+39张申浩:git@github.com:githubsugercat/xd0615.git OK
+ERROR:root:Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:githubsugercat/xd0615.git 张申浩
+  stderr: 'Cloning into '张申浩'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+'
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    repo=git.Repo.clone_from(url=row['仓库地址'],to_path=row['姓名'])
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 1019, in clone_from
+    return cls._clone(git, url, to_path, GitCmdObjectDB, progress, multi_options, **kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 960, in _clone
+    finalize_process(proc, stderr=stderr)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/util.py", line 328, in finalize_process
+    proc.wait(**kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/cmd.py", line 408, in wait
+    raise GitCommandError(self.args, status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:githubsugercat/xd0615.git 张申浩
+  stderr: 'Cloning into '张申浩'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+'
+37李丹旭:git@github.com:lidanxuii/xd0615.git OK
+36崔宇洋:git@github.com:symptomstar/xd0615.git OK
+35安佳豪:git@github.com:AndrewRrivian/xd0615.git OK
+34车轶凡:https://github.com/cyf112358/xd0615.git
+33王臻锐:git@github.com:w-z-r/xd0615.git OK
+32任志远:xd-rzy
+31秦研:git@github.com:KumichiKondo/xd0615.git OK
+30张泽霖:git@github.com:Zelin0/xd0615.git OK
+29王书乾:git@github.com:wangshuqian/xd0615.git OK
+28林师丞:git@github.com:yaoyaoman/xd0615.git OK
+27郑向上:git@github.com:zxsfly/xd0615.git OK
+26王超:git@github.com:1234567mm/xd0615.git OK
+25汤瑞:git@github.com:soot0615/xd0615.git OK
+24鲁小龙:git@github.com:Abukano/xd0615.git OK
+23黑铭钰:https://github.com/FooFooAlice/xd0615.git
+22强凯鑫:git@github.com:Nawhi-Doudou/xd0615.gi
+21倪良:git@github.com:Siriusni/xd0651.git OK
+20葛立山:git@github.com:1836191788/xd0615.git OK
+19梅永坤:git@github.com:myk5764532/xd0615.git OK
+18张富淇:git@github.com:zevincheung/xd0615.git OK
+17李明轩:git@github.com:beginner987/xd0615.git OK
+16hefabianliang:git@github.com:hefabianliang/xd0615.git OK
+15李林轩:git@github.com:caibi277/xd0615.git OK
+14杨帆:git@github.com:shikilovest/xd0615.git OK
+13黄思美:git@github.com:huibu29/xd0615.git OK
+12周玉龙:git@github.com:zgomy/xd0615.git OK
+11苟敬:1400014760@qq.com:Gjgaga
+10汪福明:git@github.com:githubwfm666/xd0615.git OK
+ERROR:root:Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:githubwfm666/xd0615.git 汪福明
+  stderr: 'Cloning into '汪福明'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+'
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    repo=git.Repo.clone_from(url=row['仓库地址'],to_path=row['姓名'])
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 1019, in clone_from
+    return cls._clone(git, url, to_path, GitCmdObjectDB, progress, multi_options, **kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 960, in _clone
+    finalize_process(proc, stderr=stderr)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/util.py", line 328, in finalize_process
+    proc.wait(**kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/cmd.py", line 408, in wait
+    raise GitCommandError(self.args, status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:githubwfm666/xd0615.git 汪福明
+  stderr: 'Cloning into '汪福明'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+'
+9宋相元:git@github.com:sxy10086/xd0615.git OK
+8马嘉义:git@github.com:crunch981/xd0615.git OK
+ERROR:root:Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:crunch981/xd0615.git 马嘉义
+  stderr: 'Cloning into '马嘉义'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+'
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    repo=git.Repo.clone_from(url=row['仓库地址'],to_path=row['姓名'])
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 1019, in clone_from
+    return cls._clone(git, url, to_path, GitCmdObjectDB, progress, multi_options, **kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/repo/base.py", line 960, in _clone
+    finalize_process(proc, stderr=stderr)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/util.py", line 328, in finalize_process
+    proc.wait(**kwargs)
+  File "/home/damo/.local/lib/python3.6/site-packages/git/cmd.py", line 408, in wait
+    raise GitCommandError(self.args, status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v git@github.com:crunch981/xd0615.git 马嘉义
+  stderr: 'Cloning into '马嘉义'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+'
+7刘信良:git@github.com:Huge-Toon/xd0615.git OK
+6黄烜宁:git@github.com:CamberLoid/xd0615.git OK
+5朱翊华:git@github.com:zy0356h/xd0615.git OK
+4 陶杨:git@github.com:JRDStar/xd0615.git OK
+3唐焕强:git@github.com:tanghuanqiang/xd0615.git OK
+2杨籍超:git@github.com:Lightning2001/xd0615.git OK
+1丁巍:git@github.com:LeaFend/xd0615.git OK
+合格: 121 人
+不合格: 12 人
+
